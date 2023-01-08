@@ -28,19 +28,18 @@ public class Parser2 {
   public static ByteArrayOutputStream parseAndDisplay(String s) {
     StringTokenizer stringTokenizer = new StringTokenizer(s, "/");
 
-    String t1 = stringTokenizer.nextToken();
-    String t2 = stringTokenizer.nextToken();
-    String t3 = stringTokenizer.nextToken();
-    String t4 = stringTokenizer.nextToken();
+    String hours = stringTokenizer.nextToken();
+    String minutes = stringTokenizer.nextToken();
+    String seconds = stringTokenizer.nextToken();
+    String miliseconds = stringTokenizer.nextToken();
 
     Calendar calendar = Calendar.getInstance();
-    calendar.set(Calendar.HOUR_OF_DAY, convert(t1));
-    calendar.set(Calendar.MINUTE, convert(t2));
-    calendar.set(Calendar.SECOND, convert(t3));
-    calendar.set(Calendar.MILLISECOND, convert(t4));
+    calendar.set(Calendar.HOUR_OF_DAY, convert(hours));
+    calendar.set(Calendar.MINUTE, convert(minutes));
+    calendar.set(Calendar.SECOND, convert(seconds));
+    calendar.set(Calendar.MILLISECOND, convert(miliseconds));
 
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss:SSS");
-
     ByteArrayOutputStream outPutStream = new ByteArrayOutputStream();
     System.setOut(new PrintStream(outPutStream));
     System.out.println(simpleDateFormat.format(calendar.getTime()));

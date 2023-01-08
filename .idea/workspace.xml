@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c326d650-0d52-4a04-bd65-26ddf94d9b49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/remad/parser/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/remad/parser/Parser2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/remad/parser/ParserDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/remad/parser/Parser2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/remad/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/remad/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/remad/parser/Parser2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/remad/parser/Parser2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

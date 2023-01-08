@@ -24,7 +24,6 @@ public class Parser {
     System.out.println(simpleDateFormat.format(calendar.getTime()));
   }
 
-
   public int convert(String valueToConvert) {
     Integer returnValue = null;
     try {

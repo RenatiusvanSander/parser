@@ -24,5 +24,7 @@ Methode werden static, weil keine Attribute verarbeitet werden und rein Paramete
 übergeben werden. Zudem ist die Methode parseAndDisplay mit einem ByteArrayOutputStream als Rückgabe
 zu versehene, um auf richtige Umwandlung der Eingangsparameters zu prüfen.
 Toki erschließt sich nicht als variablename, deshalb benannte ich den Namen zu stringTokenizer um.
+Ebenfalls sind t1 bis t4 unbenannt zu aussagekräftigere Namen wie hours, minutes, seconds und
+miliseconds.
 
 <h2>Überrabeiten des QuellCodes</h2>
